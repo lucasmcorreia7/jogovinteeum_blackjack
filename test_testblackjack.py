@@ -36,7 +36,7 @@ class Card():
         self.rank = rank
 
     def __str__(self):
-        return self.rank + " of " + self.suit
+        return self.rank + " = " + self.suit
 
 
 # create deck class
